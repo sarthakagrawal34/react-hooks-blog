@@ -1,3 +1,7 @@
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/firestore';
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyCisQOoWbflNo-oyROkicq_g7RZHjBV4CQ",
   authDomain: "react-hooks-blog-e02af.firebaseapp.com",
@@ -9,3 +13,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
+
+export const firestore = firebase.firestore();

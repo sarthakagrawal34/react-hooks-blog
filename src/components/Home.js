@@ -25,7 +25,7 @@ function Home() {
 
   return (
     <div className="home">
-      <h1>Tech Blog</h1>
+      <h1 style={styles.heading}>Tech Blog</h1>
       <div id ="blog-by">Sarthak</div>
 
       {posts.map((post,index) => (
@@ -39,6 +39,14 @@ function Home() {
       ))}
     </div>
   );
+}
+
+// Using inline styling to style home
+const styles = {
+  heading : {
+    marginTop : 30,
+    fontSize : 56,
+  }
 }
   
 export default Home;

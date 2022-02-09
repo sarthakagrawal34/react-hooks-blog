@@ -54,9 +54,9 @@ code {
   font-style: italic;
   margin-bottom: 20px;
 }
-.post-detail h1 {
+/* .post-detail h1 {
   text-align: center;
-}
+} */
 #nav {
   list-style-type: none;
   padding: 0;
@@ -69,6 +69,7 @@ code {
   text-decoration: none;
   color: #9e9e9e;
 } */
+
 /* #nav li a:hover {
   text-decoration: underline;
 } */

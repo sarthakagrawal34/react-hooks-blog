@@ -65,13 +65,13 @@ code {
 #nav li {
   margin-left: 10px;
 }
-#nav li a {
+/* #nav li a {
   text-decoration: none;
   color: #9e9e9e;
-}
-#nav li a:hover {
+} */
+/* #nav li a:hover {
   text-decoration: underline;
-}
+} */
 .create-post h1 {
   text-align: center;
 }
